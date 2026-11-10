@@ -1,5 +1,7 @@
-print("我的AI基地建好了！")
-print("欢迎来到我的AI基地！" \
-        "这里有各种有趣的AI项目和资源。" \
-        "希望你能在这里找到你感兴趣的内容！" \
-        "如果你有任何问题或建议，欢迎随时联系我。")
+name = input("请输入你的名字：")
+power_level = int(input("请输入你的力量值: "))
+
+if power_level >888:
+    print(f"{name},能量充足，准备战斗！")
+else:
+    print(f"{name},力量值不足，需要继续修炼！")
